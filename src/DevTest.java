@@ -3,9 +3,11 @@ public class DevTest {
         String str = "abcdefghijklmnopqrstuvwxy"; //length 25
         int split_number = 5;
         splitString(str, split_number);
+
         str = "abcfdefghijkl"; //length 13
         split_number = 3;
         splitString(str, split_number);
+
         str = "abcfdefghi"; //length 10
         split_number = 2;
         splitString(str, split_number);
